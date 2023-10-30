@@ -1,0 +1,14 @@
+30th October
+1st commit -> Add validations and Logger to reservation
+
+npm i class-validator class-transformer and nestjs-pino, pino-http and pino-pretty
+
+add useGlobalPipes(new ValidationPipe({whiteList: true})) to main.ts to enable validation
+and whiteList to remove unwanted properties from the request body
+
+add property decorator to the create reservation dto to validate the request body
+NB: add Type from class-transformer to the property decorator to transform the request body to the type specified i.e Date
+
+
+add pino logger to the common module(to make it reuseable into other models besides reservation)
+and add it to the reservation module
