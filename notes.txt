@@ -18,3 +18,17 @@ and add it to the reservation module
   - add a docker-compose file to run the reservation app and the database(mongo)
   - add dockerignore file to ignore node_modules and dist folder
   - update env file to use the mongo container name as the host instead of localhost
+
+
+31st October
+
+  1st commit -
+    Authentication
+    - nest g auth app to generate the auth app
+    - nest g module users
+    - nest g controller users
+
+    - dockerize auth app
+    - connected userModule to database
+    - added auth app and users module,controller, services and repository with logging and validation
+    - added create user[controller, service, dto and model]
