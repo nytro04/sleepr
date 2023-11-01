@@ -32,3 +32,10 @@ and add it to the reservation module
     - connected userModule to database
     - added auth app and users module,controller, services and repository with logging and validation
     - added create user[controller, service, dto and model]
+
+  2nd commit -
+    - npm i @nestjs/passport passport passport-local @nestjs/jwt passport-jwt
+    - npm i -D @types/passport-local @types/passport-jwt
+    - configure jwt in auth module
+    - separate auth and reservation .env files and updated docker-compose to use the new env files
+    - move config from config folder to each app
