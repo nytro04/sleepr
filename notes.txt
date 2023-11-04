@@ -39,3 +39,7 @@ and add it to the reservation module
     - configure jwt in auth module
     - separate auth and reservation .env files and updated docker-compose to use the new env files
     - move config from config folder to each app
+
+  3rd October -
+    - Add Jwt strategy to auth module
+    
