@@ -41,5 +41,7 @@ and add it to the reservation module
     - move config from config folder to each app
 
   3rd October -
-    - Add Jwt strategy to auth module
-    
+    - Add Jwt and local strategy to auth module
+
+  4th October - Add a way for reservation app and auth to communicate -
+    - install @nestjs/microservices
